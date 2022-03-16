@@ -1,0 +1,11 @@
+## ----------------------------------------------------------------------------
+## nexus | ArSphere.mac
+##
+## Ancillary macro to set the parameters of the ArSphere geometry.
+##
+## The NEXT Collaboration
+## ----------------------------------------------------------------------------
+
+/Geometry/ArSphere/LAr false
+/Geometry/ArSphere/pressure 15. bar
+/Geometry/ArSphere/radius 10. m

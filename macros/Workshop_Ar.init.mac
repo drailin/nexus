@@ -1,0 +1,27 @@
+## ----------------------------------------------------------------------------
+## nexus | ArgonSphereGen.init.mac
+##
+## Initialization macro to make a argon sphere for testing my nexus skills.
+##
+## The NEXT Collaboration
+## ----------------------------------------------------------------------------
+/PhysicsList/RegisterPhysics G4EmStandardPhysics_option4
+/PhysicsList/RegisterPhysics G4DecayPhysics
+/PhysicsList/RegisterPhysics G4RadioactiveDecayPhysics
+/PhysicsList/RegisterPhysics G4OpticalPhysics
+/PhysicsList/RegisterPhysics NexusPhysics
+/PhysicsList/RegisterPhysics G4StepLimiterPhysics
+
+/nexus/RegisterGeometry ArSphere
+
+/nexus/RegisterGenerator IonGenerator
+
+/nexus/RegisterPersistencyManager PersistencyManager
+
+/nexus/RegisterTrackingAction DefaultTrackingAction
+
+/nexus/RegisterEventAction DefaultEventAction
+
+/nexus/RegisterRunAction DefaultRunAction
+
+/nexus/RegisterMacro macros/Workshop_Xe.config.mac
